@@ -16,7 +16,19 @@
           <li>Work Experience</li>
           <li>Contact</li>
         </ul> -->
-        <img src="white.svg" width="30px" alt="" />
+     
+
+        <div class="dropdown">
+             <img class="dropbtn" onclick="myFunction()" src="white.svg" width="30px" alt="" />
+             <div id="myDropdown" class="dropdown-content">
+              <ul>
+               <a href="#about">About</a>
+                <a href="#proclamation">Proclamations</a>
+              <a href="#Work">Work</a>
+              </ul>
+             </div>
+        </div>
+
       </span>
     </div>
     <div class="cover">
@@ -24,7 +36,7 @@
       <p>Web Developer & Software enthusiast</p>
     </div>
 
-    <div class="about">
+    <div id="about" class="about">
       <h1>About</h1>
       <img src="chomu.jpeg"  alt="Photo" />
 
@@ -44,7 +56,7 @@
         innovative solutions and overcome programming challenges.
       </p>
 
-      <div class="proclamations">
+      <div id="proclamations" class="proclamations">
         <h1>Proclamations</h1>
         <div class="proclamations_items">
           <span>
@@ -65,7 +77,7 @@
       </div>
     </div>
 
-    <div class="work">
+    <div id="Work" class="work">
       <h2>My Lovely Work....</h2>
 
       <div class="container">
@@ -119,4 +131,5 @@
   </body>
 
   <footer>© 2022 Sakshi Sinha. All Rights Reserved.</footer>
-</html>
+<script src="script.js"></script>
+  </html>

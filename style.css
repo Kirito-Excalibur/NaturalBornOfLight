@@ -26,6 +26,34 @@ body {
   /* border: 1px solid red; */
 }
 
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.dropdown-content{
+  transform: translateX(-77%);
+  display: none;
+  border: 1px solid black;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content>ul>a{
+  color:black ;
+  padding: 12px 5px;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  display: block;
+}
+
+.show{
+  display: block;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
