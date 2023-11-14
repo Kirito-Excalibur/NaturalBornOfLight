@@ -54,6 +54,13 @@ body {
   flex-direction: column;
 }
 
+.about>img{
+  width: 200px;
+  height:200px;
+  border-radius: 60%;
+  object-fit: cover;
+}
+
 .about > p {
   line-height: 1.8;
   text-align: center;
@@ -93,7 +100,7 @@ body {
 }
 
 .work {
-  height: 100vh;
+  height: 100%;
   border: 1px solid red;
   display: flex;
   gap: 2rem;
@@ -113,17 +120,29 @@ body {
 .container > span {
   border: 1px solid green;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   align-items: center;
-  gap: 1rem;
+
   width: 100%;
 }
 
 .container > span > p {
   text-align: center;
-  font-size: 8px;
+  font-size: 16px;
 }
+
+.container>span>span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  
+  width: 100%;
+}
+
+
 
 .circle {
   border-radius: 50%;
